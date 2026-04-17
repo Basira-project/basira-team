@@ -1,0 +1,10 @@
+تحميل نموذج YOLOv5
+
+-يتم تحميل نموذج YOLOv5 من خلال PyTorch باستخدام الكود:
+
+torch.hub.load('ultralytics/yolov5', 'yolov5s')
+
+-سيتم تنزيل ملفات النموذج تلقائيًا من GitHub:
+    https://github.com/ultralytics/yolov5
+	
+-بعد التحميل الأول، يتم حفظ النموذج محليًا على الجهاز ولن يحتاج لإعادة التحميل في كل مرة
